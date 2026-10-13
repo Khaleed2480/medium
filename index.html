@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medium-inspired platform</title>
+<link rel="shortcut icon" href="correction.jpeg" type="image/x-icon">
+
+<!-- font awesome CDN -->
+ <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><i class="fas fa-code logo-icon"></i>Medium</div>
+            <ul class="navbar-link">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#Ourstory">Ourstory</a></li>
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#write">Write</a></li>
+                <li><a href="#signin">Sign In</a></li>
+                <li><a href="#getstarted" class="btn">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero section and button -->
+
+     <section id="home" class="hero">
+        <div class="hero-section">
+            <h1>Share Your Stories & Ideas</h1>
+            <div class="sub-text">
+                Join a vibrant community of creator, thinkers, and readers. Express yourself, learn, and grow together 
+            </div>
+
+            <!--Decorated btn -->
+        <a href="#getstarted" class="btn primary-btn fancy-btn">
+            <i class="fas fa-book-reader"></i>Start Reading
+            </a>
+        </div>
+        <!-- Artistis background overlay -->
+          <div class="hero-decor"></div>
+     </section>
+
+     <!-- why medium -->
+
+     <section id="Features" class="Features">
+          <h2 class="section-title"><i class="fas fa-lightbulb"></i>WHy Choose Our Platform</h2>
+          <div class="Features-card">
+
+            <div class="card">
+                <i class="fas fa-book-open"></i>
+                <h3>Vast Library</h3>
+                 <p>Access millions of stories, Articles, and insight from talented writer across the globe</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-edit"></i>
+                <h3>Easy to write</h3>
+                <p>Creat, edit, and publish your content effortlessly with our sleek editor for everyone</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-user"></i>
+                <h3>Community & Networking</h3>
+                <p>Connect, comment, and collaborate with a thriving community of passionate readers and writer</p>
+
+            </div>
+
+          </div>
+     </section>
+
+     <!-- our stories -->
+      <section id="Ourstory" class="our story">
+        <h2 class="section-title"><i class="fas fa-history"></i>Our Journey</h2>
+        <div class="story-content">
+            <p>
+              Founded in 2026, our mission is to democratize storytelling and knowledge sharing. We believe every voice matters and deserves a platform. Over the years, we've grown into a global community with millions of active users who contribute and learn daily.
+            </p>
+            <p>
+              Our platform empowers writers of all levels, offering tools and a welcoming environment to nurture creativity and curiosity.
+            </p>
+            <!-- imaage section -->
+            <div class="image-section">
+             <img src="images.jpg" alt="perfect image ">
+            </div>
+        </div>
+
+      </section>
+      <!-- testimonial -->
+       <section id="testimonial" class="testimonials">
+        <h2 class="section-title"><i class="fas fa-comment"></i>What Our Users Say</h2>
+
+        <div class="testimonial-container">
+
+        <div class="testimonial">
+            <p>"Medium transformed my writing journey. The comuunity`s support is incredible!"</p>
+             <h4>ALEX</h4>
+        </div>
+        <div class="testimonial">
+            <p>"I find endless inspiration here. My ideas come to life with ease"</p>
+            <h4>khalid</h4>
+        </div>
+        <div class="testimonial">
+            <p>"A platorm the truly values creativity and diversity."</p>
+            <h4>Demeji</h4>
+        </div>
+        </div>
+       </section>
+
+       <!-- memebership plan -->
+       <section id="membership" class="membership">
+        <h2 class="section-title"><i class="fas fa-user-shield"></i>Membership option</h2>
+        <div class="membership-plan">
+            <div class="plan">
+                <h3>Free Plan</h3>
+                <p>Enjoy access to basic features, read unlimited stories, and participate in community discussions.</p>
+
+            </div>
+            <div class="plan">
+                <h3>Premium</h3>
+                <p>Unlock exclusive content, ad-free experience, and advanced writing tools</p>
+
+            </div>
+            <div class="plan">
+                <h3>Pro</h3>
+                <p>Designed for dedicated writers: analytics, custom branding, and monetization options</p>
+
+            </div>
+
+        </div>
+
+       </section>
+       
+       <!-- start writing -->
+        <section id="write" class="write">
+             <h2 class="section-title"><i class="fas fa-pencil-alt"></i> start writing</h2>
+             <p>
+                Share your ideas and stories with the world! Use our intutive editor to craft compelling articles, add images, and punlsih instantly. Grow your audience and showcase your talent 
+             </p>
+             <div class="call-to-action">
+                 <a href="#getstarted" class="btn primary-btn">Get started Now</a>
+             </div>
+        </section>
+
+        <!-- sign in -->
+         <section id="signin" class="signin">
+            <h2 class="section-title"><i class="fas fa-sign-in-alt"></i>Sign In to Your Account</h2>
+            <form>
+                <label for="mail"><i class="fas fa-envelope"></i>Email</label>
+                <input type="email" id="email" placeholder="enter your mail" required/>
+
+                <label for="password"><i class="fas fa-lock"></i>Password</label>
+                <input type="password" id="password" placeholder="password" required/>
+
+                <button type="submit" class="btn primary-btn ">sign in</button>
+            </form>
+
+         </section>
+         <!-- footer -->
+          <div class="footer-content">
+            <p>&copy; 2026 Medium. All rights reserved.</p>
+            <div class="social-icon">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+
+            </div>
+
+          </div>
+         
+       
+</body>
+
+</html>
